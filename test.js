@@ -7,6 +7,12 @@
 /* 2 Examples of using variables in arithmetic operations in JS */
 
 
+
+
 /* Practice */
-let message;
-message = "Hello World";
+var button = document.querySelector('button');
+var box = document.getElementById('changeMe');
+
+button.onclick = function changeColor(){
+    box.style.background = 'blue';
+}

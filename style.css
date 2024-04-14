@@ -1,5 +1,22 @@
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    color: maroon;
-    
+    color: maroon;   
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace; 
+    color: red;
+}
+
+body {
+    text-align: center;
+}
+
+
+#changeMe {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background: red;
+    margin: 20px auto;
 }
